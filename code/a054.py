@@ -14,4 +14,5 @@ while(nx-sm<=83):
     nx+=10
 for i in range(len(ans)):
     ans[i] = chr(ak.index(ans[i])+65)
+ans.sort()
 print(''.join(ans))
